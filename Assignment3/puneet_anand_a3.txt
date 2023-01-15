@@ -1,0 +1,108 @@
+    1  sudo su
+    2  ls -l
+    3  mkdir /Entertainment
+    4  ls -l
+    5  ..
+    6  .
+    7  cd
+    8  cd .
+    9  ls 
+   10  sudo su
+   11  cd /etc
+   12  ls -l
+   13  cat /etc/syslog.config
+   14  cat /etc/syslog.conf
+   15  ls -la
+   16  sudo vim rsyslog.conf
+   17  vim rsyslog.conf
+   18  sudo apt install vim
+   19  sudo dpkg --configure -a
+   20  sudo apt install vim
+   21  sudo vim rsyslog.conf
+   22  ls -l
+   23  sudo vim logrotate.conf
+   24  sudo service rsyslog restart
+   25  cd ..
+   26  ls
+   27  cd ..
+   28  ls 
+   29  cd root
+   30  ls
+   31  cd home
+   32  ls
+   33  cd puneetanand
+   34  ls
+   35  cd Desktop
+   36  history > myhistory.txt
+   37  cat myhistory.txt
+   38  cd /tmp
+   39  wget http://prdownloads.sourceforge.net/webadmin/webmin-1.999-2.tar.gz
+   40  gunzup webmin-1.999-2.tar.gz
+   41  gunzip webmin-1.999-2.tar.gz
+   42  tar xf webmin-1.999-2.tar
+   43  cd webmin-1.999
+   44  ./setup.sh /usr/local/webmin
+   45  sudo ./setup.sh /usr/local/webmin
+   46  ps -ef | grep webmin
+   47  tail -f /var/log/local3.log
+   48  logger -i -p /var/log/local3.log "webmin installed successfully"
+   49  cd /var
+   50  ls -l
+   51  ls -la
+   52  cd log
+   53  ls
+   54  vim local3.log
+   55  sudo vim local3.log
+   56  logger -i -p /var/log/local3.log "webmin installed successfully"
+   57  ls -la
+   58  logger -i -p /var/log/local3.log "webmin installed successfully"
+   59  logger -i -p local3.log "webmin installed successfully"
+   60  logger -i -p local3 "webmin installed successfully"
+   61  logger "webmin installed successfully"
+   62  tail -l/var/log/syslog
+   63  tail -l /var/log/syslog
+   64  cd home
+   65  cd ..
+   66  cd home
+   67  cd puneetanand
+   68  cd desktop
+   69  ls
+   70  cd Desktop
+   71  history > myhistory.txt
+   72  cat myhistory.txt
+   73  sudo apt-get update
+   74  sudo apt-get install apache2
+   75  sudo mkdir -p /var/www/domain1
+   76  sudo mkdir -p /var/www/domain2
+   77  sudo chown -R $USER:$USER /var/www/domain1
+   78  sudo chown -R $USER:$USER /var/www/domain2
+   79  sudo chmod -R 755 /var/www
+   80  touch /var/www/domain1/index.html
+   81  sudo vim /var/www/domain1/index.html
+   82  sudo vim /var/www/domain2/index.html
+   83  sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/domain1.conf
+   84  sudo vim /etc/apache2/sites-available/domain2.conf
+   85  sudo vim /etc/apache2/sites-available/domain1.conf
+   86  sudo cp /etc/apache2/sites-available/domain1.conf /etc/apache2/sites-available/domain2.conf
+   87  sudo vim /etc/apache2/sites-available/domain2.conf
+   88  lsa
+   89  ls
+   90  cd Desktop
+   91  history > myhistory.txt
+   92  cat myhistory.txt
+   93  ip a
+   94  sudo a2ensite domain1.conf
+   95  sudo a2ensite domain2.conf
+   96  sudo service apache2 restart
+   97  sudo /etc/hosts
+   98  sudo vim /etc/hosts
+   99  ip addr show
+  100  sudo vim /etc/hosts
+  101  sudo vim /etc/apache2/sites-available/domain2.conf
+  102  sudo vim /etc/hosts
+  103  sudo vim /etc/apache2/sites-available/domain2.conf
+  104  sudo vim /etc/apache2/sites-available/domain1.conf
+  105  sudo vim /etc/apache2/sites-available/domain2.conf
+  106  sudo vim /etc/hosts
+  107  sudo service apache2 restart
+  108  history > myhistory.txt
